@@ -16,7 +16,7 @@ namespace Bai06
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Lab03());
+            Application.Run(new Dashboard());
         }
     }
 }

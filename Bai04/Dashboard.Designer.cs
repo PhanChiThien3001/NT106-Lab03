@@ -1,6 +1,6 @@
-﻿namespace Bai06
+﻿namespace Bai04
 {
-    partial class Lab03
+    partial class Dashboard
     {
         /// <summary>
         /// Required designer variable.
