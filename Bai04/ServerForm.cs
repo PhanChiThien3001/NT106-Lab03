@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Bai06
+namespace Bai04
 {
-    public partial class Form1 : Form
+    public partial class ServerForm : Form
     {
-        public Form1()
+        public ServerForm()
         {
             InitializeComponent();
         }
