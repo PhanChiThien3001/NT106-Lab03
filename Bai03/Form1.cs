@@ -16,5 +16,19 @@ namespace Bai03
         {
             InitializeComponent();
         }
+
+        private void btnOpenClient_Click(object sender, EventArgs e)
+        {
+            FormClient clientForm = new FormClient();
+            clientForm.Show();
+        }
+
+        private void btnOpenServer_Click(object sender, EventArgs e)
+        {
+            FormServer serverForm = new FormServer();
+            serverForm.Show();
+        }
+
     }
 }
+
