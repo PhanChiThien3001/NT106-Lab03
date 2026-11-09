@@ -10,21 +10,21 @@ using System.Windows.Forms;
 
 namespace Bai06
 {
-    public partial class Lab03 : Form
+    public partial class Dashboard : Form
     {
-        public Lab03()
+        public Dashboard()
         {
             InitializeComponent();
         }
 
         private void btnClient_Click(object sender, EventArgs e)
         {
-            new ServerForm().Show();
+            new ClientForm().Show();
         }
 
         private void btnServer_Click(object sender, EventArgs e)
         {
-            new ClientForm().Show();
+            new ServerForm().Show();
         }
     }
 }
